@@ -32,7 +32,7 @@ Add OBTest as a test-scoped dependency to your project.
 <dependency>
     <groupId>com.odebitz.oss</groupId>
     <artifactId>obtest</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <scope>test</scope>
 </dependency>
 ```
@@ -40,7 +40,7 @@ Add OBTest as a test-scoped dependency to your project.
 ### Gradle (`build.gradle`)
 
 ```groovy
-testImplementation 'com.odebitz.oss:obtest:1.0.0-SNAPSHOT'
+testImplementation 'com.odebitz.oss:obtest:1.0.0'
 ```
 
 ---
@@ -68,7 +68,7 @@ OBTest is designed to run seamlessly across legacy and modern Java environments.
 OBTest maintains a **100% clean dependency tree** with **zero runtime transitive dependencies**.
 
 ```
-com.odebitz.oss:obtest:jar:1.0.0-SNAPSHOT
+com.odebitz.oss:obtest:jar:1.0.0
 └── (0 runtime dependencies)
 ```
 
