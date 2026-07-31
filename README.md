@@ -1,7 +1,9 @@
 # OBTest — Black-Box Automated JUnit Testing Framework
 
+[![Build & Test](https://github.com/odebitzltd/OBTest/actions/workflows/ci.yml/badge.svg)](https://github.com/odebitzltd/OBTest/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/License-MIT_with_Commons_Clause-blue.svg)](LICENSE)
 [![Java Version](https://img.shields.io/badge/Java-8%2B-orange.svg)](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 **OBTest** is a lightweight, zero-dependency Java library designed to automate the process of black-box testing for public and protected methods. By analyzing method signatures, OBTest dynamically generates comprehensive sets of positive, negative, and edge-case inputs to test methods up to their breaking point.
 

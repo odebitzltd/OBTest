@@ -6,11 +6,31 @@
 
     <groupId>com.odebitz.oss</groupId>
     <artifactId>obtest</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>OBTest</name>
     <description>Black-box JUnit testing framework that automatically generates and executes comprehensive test scenarios</description>
+    <url>https://github.com/odebitzltd/OBTest</url>
+
+    <licenses>
+        <license>
+            <name>MIT License with Commons Clause 1.0</name>
+            <url>https://github.com/odebitzltd/OBTest/blob/main/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Odebitz Ltd.</name>
+        <url>https://github.com/odebitzltd</url>
+    </organization>
+
+    <scm>
+        <connection>scm:git:git://github.com/odebitzltd/OBTest.git</connection>
+        <developerConnection>scm:git:ssh://github.com:odebitzltd/OBTest.git</developerConnection>
+        <url>https://github.com/odebitzltd/OBTest</url>
+    </scm>
 
     <developers>
         <developer>
